@@ -465,6 +465,29 @@
       <element xmi:type="uml:Class" href="model.uml#_AEKMkM26EeSzY_2zc4ME9Q"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AE5MYc26EeSzY_2zc4ME9Q" x="565" y="272"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_hGRa0M43EeSwcvDD0qrkLQ" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_hGSB4M43EeSwcvDD0qrkLQ" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_hGSo8M43EeSwcvDD0qrkLQ" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_hGSo8c43EeSwcvDD0qrkLQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_hGSo8s43EeSwcvDD0qrkLQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_hGSo8843EeSwcvDD0qrkLQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hGSo9M43EeSwcvDD0qrkLQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_hGSo9c43EeSwcvDD0qrkLQ" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_hGSo9s43EeSwcvDD0qrkLQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_hGSo9843EeSwcvDD0qrkLQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_hGSo-M43EeSwcvDD0qrkLQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hGSo-c43EeSwcvDD0qrkLQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_hGSo-s43EeSwcvDD0qrkLQ" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_hGSo-843EeSwcvDD0qrkLQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_hGSo_M43EeSwcvDD0qrkLQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_hGSo_c43EeSwcvDD0qrkLQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hGSo_s43EeSwcvDD0qrkLQ"/>
+      </children>
+      <element xmi:type="uml:Class" href="model.uml#_hElYwM43EeSwcvDD0qrkLQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hGRa0c43EeSwcvDD0qrkLQ" x="617" y="136"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_q48CIcyfEeSZrIWssGChFg" name="diagram_compatibility_version" stringValue="1.0.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_q48CIsyfEeSZrIWssGChFg"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_q48CI8yfEeSZrIWssGChFg">

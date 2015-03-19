@@ -293,6 +293,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_HqTHQM2pEeSNpf-41F8wvw" name="Proyecto"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_KK3mkM2pEeSNpf-41F8wvw" name="" client="_7fAy8M2kEeSNpf-41F8wvw" supplier="_HqTHQM2pEeSNpf-41F8wvw"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_AEKMkM26EeSzY_2zc4ME9Q" name="Sprint"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hElYwM43EeSwcvDD0qrkLQ" name="UserStory"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QmJ74M2REeSNpf-41F8wvw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qnq-0M2REeSNpf-41F8wvw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
