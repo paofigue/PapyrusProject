@@ -500,10 +500,6 @@
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_FmHD0M8bEeS-HfpqOWWM-w" name="Flujo" visibility="private" type="_89zHoM7BEeSoUvfJSYZhOA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_HGgfkM8bEeS-HfpqOWWM-w" name="Proyecto" visibility="private" type="_HqTHQM2pEeSNpf-41F8wvw"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9Tb4sNDrEeSC7JDnT-e3Lg" name="userStory" type="_hElYwM43EeSwcvDD0qrkLQ" association="_9Tb4s9DrEeSC7JDnT-e3Lg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9Tb4sdDrEeSC7JDnT-e3Lg" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9Tb4stDrEeSC7JDnT-e3Lg" value="1"/>
-    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_89zHoM7BEeSoUvfJSYZhOA" name="Flujo">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Fi4ewM8dEeS-HfpqOWWM-w" name="IDFlujo" visibility="private">
@@ -623,13 +619,6 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uCfTptDqEeSC7JDnT-e3Lg" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_9Tb4s9DrEeSC7JDnT-e3Lg" memberEnd="_9Tb4tNDrEeSC7JDnT-e3Lg _9Tb4sNDrEeSC7JDnT-e3Lg">
-    <name xsi:nil="true"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_9Tb4tNDrEeSC7JDnT-e3Lg" name="release" type="_5hmtkM7BEeSoUvfJSYZhOA" association="_9Tb4s9DrEeSC7JDnT-e3Lg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9Tb4tdDrEeSC7JDnT-e3Lg" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9Tb4ttDrEeSC7JDnT-e3Lg" value="1"/>
-    </ownedEnd>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_-xnt8NDrEeSC7JDnT-e3Lg" memberEnd="_-xnt8dDrEeSC7JDnT-e3Lg _-xmf0NDrEeSC7JDnT-e3Lg">
     <name xsi:nil="true"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_-xnt8dDrEeSC7JDnT-e3Lg" name="flujo" type="_89zHoM7BEeSoUvfJSYZhOA" association="_-xnt8NDrEeSC7JDnT-e3Lg">
@@ -652,9 +641,24 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_D0SZwNDwEeSC7JDnT-e3Lg" name="login"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_HW4WwNDwEeSC7JDnT-e3Lg" name="logout"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_NcFacNDwEeSC7JDnT-e3Lg" name="m administracion"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Om4ZoNDwEeSC7JDnT-e3Lg" name="m desarrollo"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_O9Y1INDwEeSC7JDnT-e3Lg" name="m gestion de cambio"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NcFacNDwEeSC7JDnT-e3Lg" name="m administracion">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZWFBENENEeS8FqnVoq496w" name="rootcontroller" type="_jCMcsNDvEeSC7JDnT-e3Lg" association="_ZWFBE9ENEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZWFBEdENEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZWFBEtENEeS8FqnVoq496w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Om4ZoNDwEeSC7JDnT-e3Lg" name="m desarrollo">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YfdiINENEeS8FqnVoq496w" name="rootcontroller" type="_jCMcsNDvEeSC7JDnT-e3Lg" association="_YfdiI9ENEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YfdiIdENEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YfdiItENEeS8FqnVoq496w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_O9Y1INDwEeSC7JDnT-e3Lg" name="m gestion de cambio">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UsWc4NENEeS8FqnVoq496w" name="rootcontroller" type="_jCMcsNDvEeSC7JDnT-e3Lg" association="_UszI0NENEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UsWc4dENEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UsWc4tENEeS8FqnVoq496w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_PscMINDzEeSC7JDnT-e3Lg" memberEnd="_PscMIdDzEeSC7JDnT-e3Lg _PsaW8NDzEeSC7JDnT-e3Lg">
     <name xsi:nil="true"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_PscMIdDzEeSC7JDnT-e3Lg" name="rootcontroller" type="_jCMcsNDvEeSC7JDnT-e3Lg" association="_PscMINDzEeSC7JDnT-e3Lg">
@@ -667,6 +671,69 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_Q2bTAdDzEeSC7JDnT-e3Lg" name="basecontroller" type="_Xtf1UNDvEeSC7JDnT-e3Lg" association="_Q2bTANDzEeSC7JDnT-e3Lg">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q2bTAtDzEeSC7JDnT-e3Lg" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q2bTA9DzEeSC7JDnT-e3Lg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UszI0NENEeS8FqnVoq496w" memberEnd="_UszI0dENEeS8FqnVoq496w _UsWc4NENEeS8FqnVoq496w">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UszI0dENEeS8FqnVoq496w" name="m gestion de cambio" type="_O9Y1INDwEeSC7JDnT-e3Lg" association="_UszI0NENEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UszI0tENEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UszI09ENEeS8FqnVoq496w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YfdiI9ENEeS8FqnVoq496w" memberEnd="_YfdiJNENEeS8FqnVoq496w _YfdiINENEeS8FqnVoq496w">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YfdiJNENEeS8FqnVoq496w" name="m desarrollo" type="_Om4ZoNDwEeSC7JDnT-e3Lg" association="_YfdiI9ENEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YfdiJdENEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YfdiJtENEeS8FqnVoq496w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZWFBE9ENEeS8FqnVoq496w" memberEnd="_ZWFBFNENEeS8FqnVoq496w _ZWFBENENEeS8FqnVoq496w">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZWFBFNENEeS8FqnVoq496w" name="m administracion" type="_NcFacNDwEeSC7JDnT-e3Lg" association="_ZWFBE9ENEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZWFBFdENEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZWFBFtENEeS8FqnVoq496w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sBjE4NEREeS8FqnVoq496w" name="Proyecto">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Sg3DcNESEeS8FqnVoq496w" name="m administracion" type="_NcFacNDwEeSC7JDnT-e3Lg" association="_ShA0cNESEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Sg3DcdESEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Sg3DctESEeS8FqnVoq496w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sdYsUNEREeS8FqnVoq496w" name="Rol">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_S-ezkNESEeS8FqnVoq496w" name="m administracion" type="_NcFacNDwEeSC7JDnT-e3Lg" association="_S-ezk9ESEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S-ezkdESEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S-ezktESEeS8FqnVoq496w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s59TkNEREeS8FqnVoq496w" name="Permiso">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TkUEgNESEeS8FqnVoq496w" name="m administracion" type="_NcFacNDwEeSC7JDnT-e3Lg" association="_TkUEg9ESEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TkUEgdESEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TkUEgtESEeS8FqnVoq496w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_wcsagNEREeS8FqnVoq496w" name="Usuario">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_M0BccNESEeS8FqnVoq496w" name="m administracion" type="_NcFacNDwEeSC7JDnT-e3Lg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M0BccdESEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M0BcctESEeS8FqnVoq496w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ShA0cNESEeS8FqnVoq496w" name="Composicion" memberEnd="_ShA0cdESEeS8FqnVoq496w _Sg3DcNESEeS8FqnVoq496w">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ShA0cdESEeS8FqnVoq496w" name="proyecto" type="_sBjE4NEREeS8FqnVoq496w" association="_ShA0cNESEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ShA0ctESEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ShA0c9ESEeS8FqnVoq496w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_S-ezk9ESEeS8FqnVoq496w" name="Composicion" memberEnd="_S-ezlNESEeS8FqnVoq496w _S-ezkNESEeS8FqnVoq496w">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_S-ezlNESEeS8FqnVoq496w" name="rol" type="_sdYsUNEREeS8FqnVoq496w" association="_S-ezk9ESEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S-ezldESEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S-ezltESEeS8FqnVoq496w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TkUEg9ESEeS8FqnVoq496w" name="Composicion" memberEnd="_TkUEhNESEeS8FqnVoq496w _TkUEgNESEeS8FqnVoq496w">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TkUEhNESEeS8FqnVoq496w" name="permiso" type="_s59TkNEREeS8FqnVoq496w" association="_TkUEg9ESEeS8FqnVoq496w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TkUEhdESEeS8FqnVoq496w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TkUEhtESEeS8FqnVoq496w" value="1"/>
     </ownedEnd>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QmJ74M2REeSNpf-41F8wvw">
