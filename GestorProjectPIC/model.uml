@@ -298,12 +298,6 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_e1vPoNF5EeSc4rdG5AxrrQ" name="Borrar"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_fKkQINF5EeSc4rdG5AxrrQ" name="Modificar"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_O9Y1INDwEeSC7JDnT-e3Lg" name="m gestion de cambio">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_UsWc4NENEeS8FqnVoq496w" name="rootcontroller" type="_jCMcsNDvEeSC7JDnT-e3Lg" association="_UszI0NENEeS8FqnVoq496w">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UsWc4dENEeS8FqnVoq496w" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UsWc4tENEeS8FqnVoq496w" value="1"/>
-      </ownedAttribute>
-    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Om4ZoNDwEeSC7JDnT-e3Lg" name="m desarrollo">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_YfdiINENEeS8FqnVoq496w" name="rootcontroller" type="_jCMcsNDvEeSC7JDnT-e3Lg" association="_YfdiI9ENEeS8FqnVoq496w">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YfdiIdENEeS8FqnVoq496w" value="1"/>
@@ -340,14 +334,6 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YfdiJtENEeS8FqnVoq496w" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_v7MfQ9F6EeSc4rdG5AxrrQ" memberEnd="_v7MfRNF6EeSc4rdG5AxrrQ _v7MfQNF6EeSc4rdG5AxrrQ">
-      <name xsi:nil="true"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_v7MfRNF6EeSc4rdG5AxrrQ" name="comiteCambio" type="_xca24NF5EeSc4rdG5AxrrQ" association="_v7MfQ9F6EeSc4rdG5AxrrQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v7MfRdF6EeSc4rdG5AxrrQ" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v7MfRtF6EeSc4rdG5AxrrQ" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Dependency" xmi:id="_sWP8YNF7EeSc4rdG5AxrrQ" client="_xca24NF5EeSc4rdG5AxrrQ" supplier="_D0Vz8NF7EeSc4rdG5AxrrQ"/>
     <packagedElement xmi:type="uml:Model" xmi:id="_D0Vz8NF7EeSc4rdG5AxrrQ" name="Templts"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_ShA0cNESEeS8FqnVoq496w" memberEnd="_ShA0cdESEeS8FqnVoq496w _Sg3DcNESEeS8FqnVoq496w">
       <ownedEnd xmi:type="uml:Property" xmi:id="_ShA0cdESEeS8FqnVoq496w" name="proyecto" type="_sBjE4NEREeS8FqnVoq496w" association="_ShA0cNESEeS8FqnVoq496w">
@@ -363,7 +349,6 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_D0SZwNDwEeSC7JDnT-e3Lg" name="login"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_HW4WwNDwEeSC7JDnT-e3Lg" name="logout"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Dependency" xmi:id="_f1CekNF7EeSc4rdG5AxrrQ" client="_xca24NF5EeSc4rdG5AxrrQ" supplier="_CdMa0NF7EeSc4rdG5AxrrQ"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_Z3losNF7EeSc4rdG5AxrrQ" client="_sdYsUNEREeS8FqnVoq496w" supplier="_D0Vz8NF7EeSc4rdG5AxrrQ"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_YgVh4NF7EeSc4rdG5AxrrQ" client="_sdYsUNEREeS8FqnVoq496w" supplier="_CdMa0NF7EeSc4rdG5AxrrQ"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_S-ezk9ESEeS8FqnVoq496w" memberEnd="_S-ezlNESEeS8FqnVoq496w _S-ezkNESEeS8FqnVoq496w">
@@ -408,13 +393,6 @@
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_RzqJkNDuEeSC7JDnT-e3Lg" name="Flask"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_xca24NF5EeSc4rdG5AxrrQ" name="ComiteCambio">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_v7MfQNF6EeSc4rdG5AxrrQ" name="m gestion de cambio" type="_O9Y1INDwEeSC7JDnT-e3Lg" association="_v7MfQ9F6EeSc4rdG5AxrrQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v7MfQdF6EeSc4rdG5AxrrQ" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v7MfQtF6EeSc4rdG5AxrrQ" value="1"/>
-      </ownedAttribute>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_pABc4NF6EeSc4rdG5AxrrQ" name="Actualizar"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_UjDM8NF7EeSc4rdG5AxrrQ" client="_wcsagNEREeS8FqnVoq496w" supplier="_CdMa0NF7EeSc4rdG5AxrrQ"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_q-ejENF5EeSc4rdG5AxrrQ" name="UserStory">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_uh9Q4NF5EeSc4rdG5AxrrQ" name="m desarrollo" type="_Om4ZoNDwEeSC7JDnT-e3Lg" association="_uh9Q49F5EeSc4rdG5AxrrQ">
@@ -432,13 +410,6 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_uh9Q5NF5EeSc4rdG5AxrrQ" name="userStory" type="_q-ejENF5EeSc4rdG5AxrrQ" association="_uh9Q49F5EeSc4rdG5AxrrQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uh9Q5dF5EeSc4rdG5AxrrQ" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uh9Q5tF5EeSc4rdG5AxrrQ" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_UszI0NENEeS8FqnVoq496w" memberEnd="_UszI0dENEeS8FqnVoq496w _UsWc4NENEeS8FqnVoq496w">
-      <name xsi:nil="true"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_UszI0dENEeS8FqnVoq496w" name="m gestion de cambio" type="_O9Y1INDwEeSC7JDnT-e3Lg" association="_UszI0NENEeS8FqnVoq496w">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UszI0tENEeS8FqnVoq496w" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UszI09ENEeS8FqnVoq496w" value="1"/>
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_Cp3JYNFxEeSc4rdG5AxrrQ" memberEnd="_Cp3JYdFxEeSc4rdG5AxrrQ _CpadcNFxEeSc4rdG5AxrrQ">
