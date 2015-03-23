@@ -654,6 +654,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_NcFacNDwEeSC7JDnT-e3Lg" name="m administracion"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_Om4ZoNDwEeSC7JDnT-e3Lg" name="m desarrollo"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_O9Y1INDwEeSC7JDnT-e3Lg" name="m gestion de cambio"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_PscMINDzEeSC7JDnT-e3Lg" memberEnd="_PscMIdDzEeSC7JDnT-e3Lg _PsaW8NDzEeSC7JDnT-e3Lg">
     <name xsi:nil="true"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_PscMIdDzEeSC7JDnT-e3Lg" name="rootcontroller" type="_jCMcsNDvEeSC7JDnT-e3Lg" association="_PscMINDzEeSC7JDnT-e3Lg">
@@ -668,7 +669,6 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q2bTA9DzEeSC7JDnT-e3Lg" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_tSt4AND0EeSC7JDnT-e3Lg" name="Class2"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QmJ74M2REeSNpf-41F8wvw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qnq-0M2REeSNpf-41F8wvw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
